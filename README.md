@@ -61,7 +61,8 @@ Free 3D-printable models on MakerWorld: [DW OG](https://makerworld.com/en/models
 The fastest way to get running on a Raspberry Pi:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/tuanchris/dune-weaver/main/setup-pi.sh | bash
+curl -fsSL https://raw.githubusercontent.com/tuanchris/dune-weaver/main/setup-pi.sh -o setup-pi.sh
+bash setup-pi.sh
 ```
 
 This installs Docker, clones the repo, and starts the application. Once it finishes, open **http://\<hostname\>.local** in your browser.
@@ -96,6 +97,24 @@ Full setup instructions, hardware assembly, firmware flashing, and advanced conf
 ## Contributing
 
 We welcome contributions! See the [Contributing Guide](CONTRIBUTING.md) for how to get started.
+
+## License
+
+Dune Weaver is available under a **dual license**:
+
+### Open Source License (GPL-3.0)
+
+For open-source projects and personal use, Dune Weaver is licensed under the [GNU General Public License v3.0](LICENSE-GPL-3.0).
+
+You are free to use, modify, and distribute this software under GPL-3.0 terms, provided that derivative works are also licensed under GPL-3.0 and source code is made available.
+
+### Commercial License
+
+For commercial use, proprietary applications, OEM/embedded deployments, or if you cannot comply with GPL-3.0 requirements, a commercial license is available.
+
+Contact: hello@duneweaver.com
+
+See the [LICENSE](LICENSE) file for full details.
 
 ---
 
